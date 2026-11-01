@@ -1,0 +1,30 @@
+# Rust build artifacts
+/target/
+dist/
+
+# Local environment / OS-specific SDK overrides
+.cargo/config.toml
+
+# macOS temporary files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows temporary files
+Thumbs.db
+Desktop.ini
+
+# Installer / package outputs
+*.dmg
+*.app
+*.msi
+*.exe
+*.pdb
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
